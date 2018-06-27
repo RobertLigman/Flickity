@@ -1,0 +1,25 @@
+.carousel-cell {
+    width: 100%;
+    /* full width */
+    height: 50vh;
+    /* height of carousel */
+    //    background: #8C8;
+    border-radius: 5px;
+    background-size: cover;
+    counter-increment: gallery-cell;
+}
+
+.carousel-cell .container {
+    max-width: 1200px;
+    text-align: center;
+    margin: auto;
+    line-height: 50vh;
+}
+
+.restart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: bisque;
+
+}
